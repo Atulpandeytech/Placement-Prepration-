@@ -1,7 +1,7 @@
-#include <iostream>
-using namespace std;
-int main()
-{
+// #include <iostream>
+// using namespace std;
+// int main()
+// {
     // int marks;
     // int leaves;
     // cin>>marks>>leaves;
@@ -45,21 +45,79 @@ int main()
     //     i++;
     // }
 
-    //hollow rectangle
-    int n=5;
-    for(int i=0;i<n;i++)
-    {
-        for(int j=0;j<n;j++)
-        {
-            if(i==0||i==4 ||j==0||j==4)
-            {
-                cout<<" *";
-        
-            }
-            else{
-                cout<<"  ";
-            }
-        }
-        cout<<endl;
-    }
-}
+// }
+
+
+//functions
+// #include<iostream>
+// using namespace std;
+    // int func1(int y)
+    // {
+    //     int ans=y*2;
+    //     return ans;
+    // }
+    // int main()
+    // {
+    //     cout<<func1(5);
+    // }
+
+    // int doubleValue(int &num)
+    // {
+    //     num*=2;
+    //     cout<<"value inside:"<<num<<endl;
+    // }
+    // int main()
+    // {
+    //     int x=5;
+    //     doubleValue(x);
+    //     cout<<"value outside:"<<x<<endl;
+    // }
+    //if we have to do changes in original value we pass it by reference (with & sign) and when we don't want to change the original value we pass it by value(create copy of it).
+
+
+
+//Pointers : special type of variable which stores the address of another variable.(pointer type is same as the type of variable whoes address it holds)
+// #include<iostream>
+// using namespace std;    
+// int main()
+// {
+//     int a=10;
+//     int *ptr=&a;
+//     cout<<&a<<endl;   
+//     cout<<ptr<<endl;
+//     cout<<*ptr<<endl;  //dereferencing the pointer to get the value of variable a
+//     cout<<*(ptr+1)<<endl;  //giving the garbage value because we are trying to access the next memory location which is not allocated to us.
+//     cout<<*ptr+1<<endl;  //gives the value of a+1 because we are dereferencing the pointer and then adding 1 to it.
+// }
+
+//memory 
+//1. static memory allocation : memory is allocated at compile time and the size of data structure must be known at compile time. (eg: int a=10; int arr[10];)
+//2. dynamic memory allocation : memory is allocated at run time and the size of data structure can be changed at run time. (eg: int *ptr=new int; int *arr=new int[n];)
+
+
+//if we created a pointer it must be initialized with some value or with null.
+
+
+
+//class and objects 
+//class don't contain any memory space until the object of that class is created.
+//constructor : same as class name, no return type, automatically called when object is created, used to initialize the object.
+
+// class Node{
+//     public:
+//     int data;
+//     Node *next;
+//     Node(int val)
+//     {
+//         data=val;
+//         next=NULL;
+//     }
+    
+// }
+// int main()
+// {
+//     Node *head = new Node(10);
+//     return 0;
+// }
+
+
