@@ -38,32 +38,33 @@
 
 // }
 
-#include<iostream>
-using namespace std;  
-int checkElement(int arr[],int size,int key)
-{
-  for(int i=0;i<size;i++)
-  {
-    if(arr[i]==key)
-    {
-      if(key>20)
-      {
-        return key*2;
-      }
-      else
-      {
-        return key/2;
-      }
-    }
-  }
-  return -1;
-}
-int main()
-{
-  int arr[]={12,32,55,1,26,53,78};
-  int size=7;
-  int key=53;
-  int res=checkElement(arr,size,key);
-  cout<<res<<endl;
+// #include<iostream>
+// using namespace std;  
+// int checkElement(int arr[],int size,int key)
+// {
+//   for(int i=0;i<size;i++)
+//   {
+//     if(arr[i]==key)
+//     {
+//       if(key>20)
+//       {
+//         return key*2;
+//       }
+//       else
+//       {
+//         return key/2;
+//       }
+//     }
+//   }
+//   return -1;
+// }
+// int main()
+// {
+//   int arr[]={12,32,55,1,26,53,78};
+//   int size=7;
+//   int key=53;
+//   int res=checkElement(arr,size,key);
+//   cout<<res<<endl;
 
-}
+// }
+

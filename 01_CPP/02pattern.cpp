@@ -34,7 +34,7 @@ int main()
 
 
   //half pyramid pattern
-  // int n;
+  // int n;   
   // cin>>n;
   // for(int i=1;i<=n;i++)
   // {
