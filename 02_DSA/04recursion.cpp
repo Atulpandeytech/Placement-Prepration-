@@ -138,5 +138,18 @@ using namespace std;
 
 // }
 
-
+int print(int arr[],int n,int i)
+{
+  if(i==n) return 0;
+  cout<<arr[i]<<" ";
+  return print(arr,n,i+1);
+}
+int main()
+{
+  int arr[]={1,2,3,4,5,6,7,8,9};
+  int n=9;
+  int i=0;
+  int res=print(arr,n,i);
+  cout<<res;
+}
 
